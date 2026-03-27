@@ -36,8 +36,7 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)' == 'Debug Optimize Size' or '$(Configuration)' == 'Release Optimize Size'">
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug Optimize Size' or '$(Configuration)' == 'Release Optimize Size'">
     <DefineConstants>$(DefineConstants);SERIALIZE_LINQ_OPTIMIZE_SIZE</DefineConstants>
   </PropertyGroup>
 
@@ -45,18 +44,15 @@
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net48|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net48|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug Optimize Size|net48|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug Optimize Size|net48|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release Optimize Size|net48|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release Optimize Size|net48|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
@@ -64,93 +60,75 @@
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net481|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net481|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug Optimize Size|net481|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug Optimize Size|net481|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release Optimize Size|net481|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release Optimize Size|net481|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug Optimize Size|net6.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug Optimize Size|net6.0|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release Optimize Size|net6.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release Optimize Size|net6.0|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug Optimize Size|net7.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug Optimize Size|net7.0|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release Optimize Size|net7.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release Optimize Size|net7.0|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug Optimize Size|net8.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug Optimize Size|net8.0|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release Optimize Size|net8.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release Optimize Size|net8.0|AnyCPU'">
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-    Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0|AnyCPU'">
 	<WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-	Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug Optimize Size|net9.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug Optimize Size|net9.0|AnyCPU'">
 	<WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
-  <PropertyGroup
-	Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release Optimize Size|net9.0|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release Optimize Size|net9.0|AnyCPU'">
 	<WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
@@ -169,6 +147,10 @@
   <ItemGroup>
     <None Include="..\..\LICENSE" Pack="true" PackagePath="" />
     <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.5" />
   </ItemGroup>
 
 </Project>
